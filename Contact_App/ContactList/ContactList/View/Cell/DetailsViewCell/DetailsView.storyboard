@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Details View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="DetailsViewController" id="Y6W-OH-hqX" customClass="DetailsViewController" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ds-QW-EjW">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="Details " id="Zje-hh-0VS">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" style="done" id="WbF-P7-V0v">
+                                            <imageReference key="image" image="chevron.backward" catalog="system" symbolScale="large"/>
+                                            <color key="tintColor" systemColor="tintColor"/>
+                                            <connections>
+                                                <action selector="backButtonAction:" destination="Y6W-OH-hqX" id="EvG-a7-acj"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaulf" translatesAutoresizingMaskIntoConstraints="NO" id="jaU-jr-2I3">
+                                <rect key="frame" x="86" y="196" width="242" height="222"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="242" id="TZZ-9W-164"/>
+                                    <constraint firstAttribute="height" constant="222" id="hmI-eE-IFF"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UnKnown Persion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mqs-kB-2Hn">
+                                <rect key="frame" x="58" y="438" width="298" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+880 1423753652" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrR-w7-LWR">
+                                <rect key="frame" x="36" y="498" width="342" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Mqs-kB-2Hn" firstAttribute="top" secondItem="jaU-jr-2I3" secondAttribute="bottom" constant="20" id="1Ab-eS-DXt"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Mqs-kB-2Hn" secondAttribute="trailing" constant="58" id="1B3-h8-fVv"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="jaU-jr-2I3" secondAttribute="trailing" constant="86" id="665-jy-FVz"/>
+                            <constraint firstItem="2ds-QW-EjW" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="6x9-h4-K48"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="mrR-w7-LWR" secondAttribute="trailing" constant="36" id="B4s-hM-DeB"/>
+                            <constraint firstItem="jaU-jr-2I3" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="86" id="DNj-La-ZPT"/>
+                            <constraint firstItem="2ds-QW-EjW" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Lcw-nM-tW5"/>
+                            <constraint firstItem="2ds-QW-EjW" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="NVr-Eo-HxO"/>
+                            <constraint firstItem="mrR-w7-LWR" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="36" id="Rhl-cm-ZdI"/>
+                            <constraint firstItem="mrR-w7-LWR" firstAttribute="top" secondItem="Mqs-kB-2Hn" secondAttribute="bottom" constant="30" id="Z17-ug-l1k"/>
+                            <constraint firstItem="jaU-jr-2I3" firstAttribute="top" secondItem="2ds-QW-EjW" secondAttribute="bottom" constant="108" id="f4V-r0-A1a"/>
+                            <constraint firstItem="Mqs-kB-2Hn" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="58" id="sh7-gy-B3n"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgDt" destination="jaU-jr-2I3" id="Il6-Si-KSw"/>
+                        <outlet property="lblDt" destination="Mqs-kB-2Hn" id="ayp-dp-Gfc"/>
+                        <outlet property="nmbDt" destination="mrR-w7-LWR" id="bdi-NC-yhy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="73.913043478260875" y="81.696428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chevron.backward" catalog="system" width="96" height="128"/>
+        <image name="defaulf" width="424" height="424"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
