@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21B1879A2924B2E7006FACFA /* DetailsView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B187992924B2E7006FACFA /* DetailsView.storyboard */; };
+		215F47302924E7CA00EBB8D7 /* DetailsView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215F472F2924E7CA00EBB8D7 /* DetailsView.storyboard */; };
 		71E0A7C328D65CBF001C704E /* AddContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E0A7C228D65CBF001C704E /* AddContactController.swift */; };
 		71E0A7C528D65CD5001C704E /* AddContact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E0A7C428D65CD5001C704E /* AddContact.storyboard */; };
 		71F6D84128D58F6200EEAC87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F6D84028D58F6200EEAC87 /* AppDelegate.swift */; };
@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		21B187992924B2E7006FACFA /* DetailsView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = DetailsView.storyboard; path = ../../../../../../../../.Trash/DetailsView.storyboard; sourceTree = "<group>"; };
+		215F472F2924E7CA00EBB8D7 /* DetailsView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailsView.storyboard; sourceTree = "<group>"; };
 		71E0A7C228D65CBF001C704E /* AddContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactController.swift; sourceTree = "<group>"; };
 		71E0A7C428D65CD5001C704E /* AddContact.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddContact.storyboard; sourceTree = "<group>"; };
 		71F6D83D28D58F6200EEAC87 /* Contact App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contact App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +85,7 @@
 			);
 			path = ContactList;
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		71F6D85428D58FA100EEAC87 /* Controller */ = {
 			isa = PBXGroup;
@@ -136,7 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				71F6D85F28D5918600EEAC87 /* DetailsViewController.swift */,
-				21B187992924B2E7006FACFA /* DetailsView.storyboard */,
+				215F472F2924E7CA00EBB8D7 /* DetailsView.storyboard */,
 			);
 			path = DetailsViewCell;
 			sourceTree = "<group>";
@@ -201,9 +202,9 @@
 			files = (
 				71F6D84D28D58F6300EEAC87 /* LaunchScreen.storyboard in Resources */,
 				71F6D84A28D58F6300EEAC87 /* Assets.xcassets in Resources */,
+				215F47302924E7CA00EBB8D7 /* DetailsView.storyboard in Resources */,
 				71F6D85D28D5908700EEAC87 /* CustomCell.xib in Resources */,
 				71F6D84828D58F6200EEAC87 /* Main.storyboard in Resources */,
-				21B1879A2924B2E7006FACFA /* DetailsView.storyboard in Resources */,
 				71E0A7C528D65CD5001C704E /* AddContact.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,7 +376,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -405,13 +406,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.murad.ContactList;
+				PRODUCT_BUNDLE_IDENTIFIER = com.murad.ContacList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
