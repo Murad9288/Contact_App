@@ -5,9 +5,8 @@
 
 <br/>
 
-|---|---|
 
-|<img src= './Image sample/1.png' width='200px'>|<img src= './Image sample/2.png' width='200px'>|<img src= './Image sample/2.png' width='200px'>|
+<img src= './Image sample/1.png' width='200px'>&nbsp;&nbsp;<img src= './Image sample/2.png' width='200px'>&nbsp;&nbsp;<img src= './Image sample/2.png' width='200px'>
 
-|---|---|
-|<img src='./Image sample/video.gif' width='400px'>|
+<br/>
+<p aline = "center" ><img src='./Image sample/video.gif' width='400px'></p>
