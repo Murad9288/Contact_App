@@ -6,7 +6,7 @@
 <br/>
 
 
-<img src= './Image sample/1.png' width='200px'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src= './Image sample/2.png' width='200px'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src= './Image sample/2.png' width='200px'>
+<img src= './Image sample/1.png' width='200px'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src= './Image sample/2.png' width='200px'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src= './Image sample/3.png' width='200px'>
 
 <br/>
 <h1><p align="center"><img src="./Image sample/video.gif" width='300px' height='540px'></p></h1> 
