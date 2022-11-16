@@ -9,4 +9,4 @@
 <img src= './Image sample/1.png' width='200px'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src= './Image sample/2.png' width='200px'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src= './Image sample/2.png' width='200px'>
 
 <br/>
-<p aling = "center" ><img src='./Image sample/video.gif' width='400px'></p>
+<h1><p align="center"><img src="./Image sample/4.gif" width='400px'></p></h1> 
