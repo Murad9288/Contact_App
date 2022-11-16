@@ -18,18 +18,21 @@ class DetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    
 
 //        guard let imageName = imageName else { return }
 //        guard let name = name else { return }
         if  (name != nil), (number != nil) {
             lblDt.text = name
             nmbDt.text = number
+        
         }
     }
 
     // MARK: - Button Action.
+    
 
-    @IBAction func backButtonAction(_ sender: UIBarButtonItem) {
+    @IBAction func backButtonAction(_ sender: UIButton) {
         self.dismiss(animated: true)
     }
     
