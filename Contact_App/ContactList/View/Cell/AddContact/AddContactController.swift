@@ -19,7 +19,8 @@ class AddContactController: UIViewController {
     
     @IBOutlet weak var saveButton: UIButton!
     
-    @IBAction func BackButton(_ sender: UIBarButtonItem) {        self.dismiss(animated: true)
+    @IBAction func BackButton(_ sender: UIBarButtonItem) {
+		self.dismiss(animated: true)
     }
     
     
